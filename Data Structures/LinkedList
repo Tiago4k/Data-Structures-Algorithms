@@ -39,6 +39,18 @@ class linkedList
         }
     }
     
+    void deleteList()
+    {
+        node *current = head;
+        node *temp = new node;
+        while(current->next != NULL)
+        {
+            temp = current->next;
+            delete current;
+            current = temp;
+        }
+    }
+    
     void displayList()
     {
         node *temp = new node;
