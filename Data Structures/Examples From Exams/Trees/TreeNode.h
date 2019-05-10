@@ -1,22 +1,3 @@
-Skip to content
- 
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Tiago4k 
-0
-0 0 Tiago4k/Data-Structures-Algorithms
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-Data-Structures-Algorithms/Data Structures/Examples from exam/Trees/TreeNode.h
-@Tiago4k Tiago4k Create TreeNode.h
-62ef0ee 5 minutes ago
-91 lines (75 sloc)  1.49 KB
-    
-
 #ifndef TREENODE_H
 #define TREENODE_H
 
@@ -85,37 +66,4 @@ void TreeNode<T>::traverse()
 	if (right != 0)
 		right->traverse();
 }
-
-// template <typename T>
-// void TreeNode<T>::getItem()
-// {
-//     return item;
-// }
-
-// template <typename T>
-// void TreeNode<T>::getRight()
-// {
-//     return right;
-// }
-
-// template <typename T>
-// void TreeNode<T>::getLeft()
-// {
-//     return left;
-// }
-
-
 #endif
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
