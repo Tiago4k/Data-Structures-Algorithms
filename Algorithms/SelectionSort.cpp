@@ -5,10 +5,11 @@ using namespace std;
 // Worse Case Time Complexity O(n^2)
 void selectionSort(int arr[], int n){
     
-    
+    // Loop through each element in the unsorted array
     for(int i= 0; i < n-1; i++){
+        
+        // Find the minimum element in the unsorted array
         int min_index = i;
-    
         for(int j = i + 1; j < n; j++){
             
             if(arr[j] < arr[min_index]){
@@ -16,6 +17,7 @@ void selectionSort(int arr[], int n){
             }
         }
         
+        // Swap the minimum found element with the first element in the array
         int temp = arr[min_index];
         arr[min_index] = arr[i];
         arr[i] = temp;
