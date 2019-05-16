@@ -19,7 +19,8 @@ void bubbleSort(int arr[], int n){
 }
 
 // Optimised implementation of Bubble Sort
-// Worse Case Time Complexity O(n*n)
+// Worse Case Time Complexity O(n^2)
+// Best Case Time Complexity O(n)
 void optimisedBubbleSort(int arr[], int n){
     
     bool swapped;
