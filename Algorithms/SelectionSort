@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-
+// Implementation of Selection Sort
+// Worse Case Time Complexity O(n^2)
 void selectionSort(int arr[], int n){
     
     
