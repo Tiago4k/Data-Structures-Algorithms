@@ -12,7 +12,7 @@ void insertionSort(int arr[], int n){
         
         while(j >= 0 && arr[j] > item){
             arr[j + 1] = arr[j];
-            j = j-1;
+            j--;
         }
         arr[j+1] = item;
     }
