@@ -2,7 +2,7 @@
 using namespace std;
 
 
-// Time Complexity for MergeSort is O(nlogn) in all 3 cases
+// Time Complexity for MergeSort is O(n Log n) in all 3 cases
 void merge(int* arr, int left, int mid, int right){
 
     int* temp = new int[right + 1];
