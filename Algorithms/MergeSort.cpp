@@ -20,7 +20,7 @@ void merge(int* arr, int left, int mid, int right){
         i++;
     }
     
-    // Copy remaining elements of arr[], if there are any
+    // Copy remaining elements of arr[]
     if( h > mid){
         for(int k=j; k <= right; k++){
             temp[i]= arr[k];
